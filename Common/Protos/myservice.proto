@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "FooService";
+
+package myservice;
+
+// The greeting service definition.
+service MyService {
+  // Sends a greeting
+  rpc GetFoo (MyRequest) returns (MyReply);
+}
+
+// The request message containing the user's name.
+message MyRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message MyReply {
+  string message = 1;
+}

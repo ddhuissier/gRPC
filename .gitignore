@@ -3,3 +3,8 @@
 ################################################################################
 
 /Common/bin/Debug/net5.0
+/Common/obj
+/gRPCClient/obj
+/GrpcService/bin/Debug/net5.0
+/GrpcService/obj
+/.vs

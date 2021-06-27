@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService", "GrpcService\GrpcService.csproj", "{621CFB58-E227-4CA2-943B-9BBE4B2C2BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "gRPCClient\GrpcClient.csproj", "{AAEB3AAE-9591-4134-BA2F-994B1FAD25E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F3E66512-AD26-4688-8A24-626213164C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{621CFB58-E227-4CA2-943B-9BBE4B2C2BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621CFB58-E227-4CA2-943B-9BBE4B2C2BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621CFB58-E227-4CA2-943B-9BBE4B2C2BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621CFB58-E227-4CA2-943B-9BBE4B2C2BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEB3AAE-9591-4134-BA2F-994B1FAD25E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEB3AAE-9591-4134-BA2F-994B1FAD25E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEB3AAE-9591-4134-BA2F-994B1FAD25E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEB3AAE-9591-4134-BA2F-994B1FAD25E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E66512-AD26-4688-8A24-626213164C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E66512-AD26-4688-8A24-626213164C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E66512-AD26-4688-8A24-626213164C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E66512-AD26-4688-8A24-626213164C58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8579E7FC-A3C3-4A6D-A038-B99FB83B2A8B}
+	EndGlobalSection
+EndGlobal
