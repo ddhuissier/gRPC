@@ -1,13 +1,13 @@
 syntax = "proto3";
 
-option csharp_namespace = "FooService";
+option csharp_namespace = "LambdaService";
 
 package myservice;
 
 // The greeting service definition.
 service MyService {
   // Sends a greeting
-  rpc GetFoo (MyRequest) returns (MyReply);
+  rpc GetData (MyRequest) returns (MyReply);
 }
 
 // The request message containing the user's name.

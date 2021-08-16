@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FooService;
 using Grpc.Net.Client;
 using GrpcService;
+using LambdaService;
 
 namespace gRPCClient
 {
@@ -18,7 +18,7 @@ namespace gRPCClient
                               new HelloRequest { Name = "GreeterClient" });
 
             var myClient = new MyService.MyServiceClient(channel);
-            var currentData = await myClient.GetFoo(
+            var currentData =  myClient.GetData(
                               new MyRequest { Name = "My Name" });
 
             Console.WriteLine("Greeting: " + reply.Message);

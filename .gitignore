@@ -8,3 +8,4 @@
 /GrpcService/bin/Debug/net5.0
 /GrpcService/obj
 /.vs
+/gRPCClient/bin/Debug/net5.0
