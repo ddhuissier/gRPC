@@ -1,2 +1,2 @@
 # gRPC
-Test Google RCP.
+Test Google RPC.
